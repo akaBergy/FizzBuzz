@@ -35,6 +35,6 @@ class FizzBuzzConverterTest {
     @Test
     public void testNormal() {
         assertEquals("1", fizzBuzzConverter.convert(1));
-        assertEquals("1", fizzBuzzConverter.convert(4));
+        assertEquals("4", fizzBuzzConverter.convert(4));
     }
 }
