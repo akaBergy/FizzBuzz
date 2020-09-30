@@ -3,6 +3,12 @@ package cegepst;
 public class FizzBuzzConverter {
 
     public String convert(int number) {
-        return String.valueOf(number);
+        if(number % 15 == 0) {
+            return "FizzBuzz";
+        } else if(number % 5 == 0) {
+            return "Buzz";
+        } else {
+            return String.valueOf(number);
+        }
     }
 }
