@@ -1,7 +1,8 @@
 package cegepst;
 
 public class FizzBuzzConverter {
+
     public String convert(int number) {
-        return "";
+        return String.valueOf(number);
     }
 }
