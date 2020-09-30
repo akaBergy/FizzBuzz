@@ -1,5 +1,7 @@
 package cegepst;
 
 public class FizzBuzzConverter {
-    //test
+    public String convert(int number) {
+        return "";
+    }
 }
